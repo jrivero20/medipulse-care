@@ -1,0 +1,521 @@
+[
+  {
+    "id": "MED-2024-001",
+    "nombre_completo": "Valeria Sofía Ramos Mendoza",
+    "dni": "45.892.114",
+    "edad": 34,
+    "genero": "Femenino",
+    "tipo_sangre": "O+",
+    "estado": "Crítico",
+    "diagnostico_principal": "Traumatismo torácico cerrado y neumotórax",
+    "fecha_ingreso": "2026-09-02T08:30:00",
+    "habitacion": "UCI-03",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "90/60 mmHg",
+      "frecuencia_cardiaca": 118,
+      "saturacion_oxigeno": 89,
+      "temperatura": 37.2
+    },
+    "alergias": ["Penicilina", "AINEs"],
+    "telefono": "+58 412 9021845",
+    "contacto_emergencia": {
+      "nombre": "Carlos Ramos (Padre)",
+      "telefono": "+58 414 7891234"
+    },
+    "seguro_medico": "Mapfre Seguros - Póliza Premium",
+    "notas_evolucion": "Ingreso de emergencia por colisión vehicular. Se realiza drenaje torácico inmediato. Monitoreo hemodinámico estricto."
+  },
+  {
+    "id": "MED-2024-002",
+    "nombre_completo": "Andrés Ignacio Salazar Peña",
+    "dni": "32.109.876",
+    "edad": 58,
+    "genero": "Masculino",
+    "tipo_sangre": "A+",
+    "estado": "En Observación",
+    "diagnostico_principal": "Síndrome coronario agudo sin elevación del ST",
+    "fecha_ingreso": "2026-09-03T14:15:00",
+    "habitacion": "HAB-214",
+    "medico_tratante": "Dra. Mariana Lucena",
+    "signos_vitales": {
+      "presion": "145/95 mmHg",
+      "frecuencia_cardiaca": 82,
+      "saturacion_oxigeno": 96,
+      "temperatura": 36.6
+    },
+    "alergias": null,
+    "telefono": null,
+    "contacto_emergencia": {
+      "nombre": "Rosa Salazar (Esposa)",
+      "telefono": "+58 424 5551122"
+    },
+    "seguro_medico": "Seguros Caracas - Cobertura Total",
+    "notas_evolucion": "Dolor retroesternal opresivo de 2 horas de evolución. Curva de troponinas en curso. Tratamiento antiisquémico iniciado."
+  },
+  {
+    "id": "MED-2024-003",
+    "nombre_completo": "Camila Beatriz Herrera Silva",
+    "dni": "51.443.209",
+    "edad": 22,
+    "genero": "Femenino",
+    "tipo_sangre": "B+",
+    "estado": "Estable",
+    "diagnostico_principal": "Apendicitis aguda postquirúrgica (Día 1)",
+    "fecha_ingreso": "2026-09-03T20:00:00",
+    "habitacion": "HAB-108",
+    "medico_tratante": "Dr. Javier Carrizo",
+    "signos_vitales": {
+      "presion": "115/75 mmHg",
+      "frecuencia_cardiaca": 74,
+      "saturacion_oxigeno": 99,
+      "temperatura": 36.8
+    },
+    "alergias": [],
+    "telefono": "+58 416 3322114",
+    "contacto_emergencia": null,
+    "seguro_medico": null,
+    "notas_evolucion": "Laparoscopía sin complicaciones. Buena tolerancia oral en la mañana. Se inicia deambulación precoz."
+  },
+  {
+    "id": "MED-2024-004",
+    "nombre_completo": "Roberto Alejandro Vargas Cárdenas",
+    "dni": "28.771.503",
+    "edad": 67,
+    "genero": "Masculino",
+    "tipo_sangre": "O-",
+    "estado": "Crítico",
+    "diagnostico_principal": "Cetoacidosis diabética y sepsis de foco urinario",
+    "fecha_ingreso": "2026-09-01T23:45:00",
+    "habitacion": "UCI-05",
+    "medico_tratante": "Dra. Carmen Villalobos",
+    "signos_vitales": {
+      "presion": "85/50 mmHg",
+      "frecuencia_cardiaca": 124,
+      "saturacion_oxigeno": 91,
+      "temperatura": 38.9
+    },
+    "alergias": ["Sulfamidas", "Dipirona"],
+    "telefono": null,
+    "contacto_emergencia": null,
+    "seguro_medico": "Sin Seguro (Particular)",
+    "notas_evolucion": "Glucemia al ingreso > 550 mg/dL. Terapia intensiva con infusión de insulina rápida y soporte vasoactivo."
+  },
+  {
+    "id": "MED-2024-005",
+    "nombre_completo": "Lucía Gabriela Ortiz Castillo",
+    "dni": "48.910.334",
+    "edad": 29,
+    "genero": "Femenino",
+    "tipo_sangre": "AB+",
+    "estado": "Alta",
+    "diagnostico_principal": "Neumonía adquirida en la comunidad (Resuelta)",
+    "fecha_ingreso": "2026-08-28T10:00:00",
+    "habitacion": "HAB-201",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "120/80 mmHg",
+      "frecuencia_cardiaca": 68,
+      "saturacion_oxigeno": 98,
+      "temperatura": 36.5
+    },
+    "alergias": ["Latex"],
+    "telefono": "+58 412 8887766",
+    "contacto_emergencia": {
+      "nombre": "Manuel Ortiz (Hermano)",
+      "telefono": "+58 412 1112233"
+    },
+    "seguro_medico": "Seguros Mercantil",
+    "notas_evolucion": "Completó esquema de antibióticos parenterales con éxito. Asintomática. Se emite orden de egreso con control ambulatorio."
+  },
+  {
+    "id": "MED-2024-006",
+    "nombre_completo": "Mateo Daniel Paredes Rojas",
+    "dni": "53.229.001",
+    "edad": 19,
+    "genero": "Masculino",
+    "tipo_sangre": null,
+    "estado": "En Observación",
+    "diagnostico_principal": "Traumatismo craneoencefálico leve y contusión frontal",
+    "fecha_ingreso": "2026-09-04T02:30:00",
+    "habitacion": "OBS-02",
+    "medico_tratante": "Dr. Javier Carrizo",
+    "signos_vitales": {
+      "presion": "110/70 mmHg",
+      "frecuencia_cardiaca": 72,
+      "saturacion_oxigeno": 97,
+      "temperatura": 36.7
+    },
+    "alergias": null,
+    "telefono": "+58 424 9900112",
+    "contacto_emergencia": {
+      "nombre": "Claudia Rojas (Madre)",
+      "telefono": "+58 424 9900113"
+    },
+    "seguro_medico": null,
+    "notas_evolucion": "Caída deportiva. Escala de Glasgow 15/15. TAC cerebral inicial sin hematomas expansivos. Observación por 12 horas."
+  },
+  {
+    "id": "MED-2024-007",
+    "nombre_completo": "Isabella Cristina Navarro Beltrán",
+    "dni": "39.450.671",
+    "edad": 42,
+    "genero": "Femenino",
+    "tipo_sangre": "A-",
+    "estado": "Estable",
+    "diagnostico_principal": "Colecistolitiasis sintomática programada",
+    "fecha_ingreso": "2026-09-03T16:20:00",
+    "habitacion": "HAB-305",
+    "medico_tratante": "Dra. Mariana Lucena",
+    "signos_vitales": {
+      "presion": "125/82 mmHg",
+      "frecuencia_cardiaca": 70,
+      "saturacion_oxigeno": 99,
+      "temperatura": 36.4
+    },
+    "alergias": ["Yodo"],
+    "telefono": null,
+    "contacto_emergencia": {
+      "nombre": "Guillermo Beltrán (Primo)",
+      "telefono": "+58 414 4455667"
+    },
+    "seguro_medico": "Seguros La Previsora",
+    "notas_evolucion": "Evaluación preoperatoria completa y aprobada por cardiología. Lista para procedimiento quirúrgico a primera hora."
+  },
+  {
+    "id": "MED-2024-008",
+    "nombre_completo": "Joaquín Ernesto Méndez Quintana",
+    "dni": "25.660.119",
+    "edad": 71,
+    "genero": "Masculino",
+    "tipo_sangre": "O+",
+    "estado": "Crítico",
+    "diagnostico_principal": "Accidente cerebrovascular isquémico agudo (ACM Izquierda)",
+    "fecha_ingreso": "2026-09-04T05:10:00",
+    "habitacion": "UTI-01",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "170/105 mmHg",
+      "frecuencia_cardiaca": 94,
+      "saturacion_oxigeno": 93,
+      "temperatura": 37.0
+    },
+    "alergias": null,
+    "telefono": null,
+    "contacto_emergencia": null,
+    "seguro_medico": "Sanitas Internacional",
+    "notas_evolucion": "Hemiplejía derecha y afasia global. Se evalúa protocolo de trombectomía mecánica. Protección de vía aérea instalada."
+  },
+  {
+    "id": "MED-2024-009",
+    "nombre_completo": "Sofía Daniela Chacón Pérez",
+    "dni": "47.112.390",
+    "edad": 31,
+    "genero": "Femenino",
+    "tipo_sangre": "B-",
+    "estado": "Estable",
+    "diagnostico_principal": "Crisis asmática moderada en resolución",
+    "fecha_ingreso": "2026-09-03T22:00:00",
+    "habitacion": "HAB-112",
+    "medico_tratante": "Dra. Carmen Villalobos",
+    "signos_vitales": {
+      "presion": "118/74 mmHg",
+      "frecuencia_cardiaca": 76,
+      "saturacion_oxigeno": 97,
+      "temperatura": 36.6
+    },
+    "alergias": ["Aspirina", "Polvo y Ácaros"],
+    "telefono": "+58 426 7788990",
+    "contacto_emergencia": {
+      "nombre": "Mariana Chacón (Hermana)",
+      "telefono": "+58 426 7788991"
+    },
+    "seguro_medico": "Banesco Seguros",
+    "notas_evolucion": "Respondió favorablemente a nebulizaciones con broncodilatador y corticoterapia parenteral. Murmullo vesicular conservado."
+  },
+  {
+    "id": "MED-2024-010",
+    "nombre_completo": "Gabriel Arturo Lugo Benítez",
+    "dni": "30.401.982",
+    "edad": 63,
+    "genero": "Masculino",
+    "tipo_sangre": "AB-",
+    "estado": "En Observación",
+    "diagnostico_principal": "Hemorragia digestiva alta de origen ulceroso",
+    "fecha_ingreso": "2026-09-02T18:40:00",
+    "habitacion": "HAB-218",
+    "medico_tratante": "Dr. Javier Carrizo",
+    "signos_vitales": {
+      "presion": "100/65 mmHg",
+      "frecuencia_cardiaca": 88,
+      "saturacion_oxigeno": 95,
+      "temperatura": 36.9
+    },
+    "alergias": [],
+    "telefono": "+58 414 1239874",
+    "contacto_emergencia": null,
+    "seguro_medico": null,
+    "notas_evolucion": "Endoscopia digestiva diagnóstica reporta úlcera gástrica Forrest IIb con hemostasia endoscópica efectiva. Sin sangrado activo."
+  },
+  {
+    "id": "MED-2024-011",
+    "nombre_completo": "Mariana Estefanía Colmenares Gil",
+    "dni": "49.880.124",
+    "edad": 27,
+    "genero": "Femenino",
+    "tipo_sangre": "O+",
+    "estado": "Alta",
+    "diagnostico_principal": "Gastroenteritis aguda con deshidratación leve",
+    "fecha_ingreso": "2026-09-03T07:15:00",
+    "habitacion": "HAB-104",
+    "medico_tratante": "Dra. Mariana Lucena",
+    "signos_vitales": {
+      "presion": "112/70 mmHg",
+      "frecuencia_cardiaca": 66,
+      "saturacion_oxigeno": 99,
+      "temperatura": 36.3
+    },
+    "alergias": null,
+    "telefono": "+58 412 6543210",
+    "contacto_emergencia": {
+      "nombre": "Esteban Colmenares (Esposo)",
+      "telefono": "+58 412 6543211"
+    },
+    "seguro_medico": "Seguros Constitución",
+    "notas_evolucion": "Hidratación endovenosa completada. Tolera líquidos vía oral sin náuseas ni dolor abdominal. Alta con sales de rehidratación."
+  },
+  {
+    "id": "MED-2024-012",
+    "nombre_completo": "Héctor Mauricio Zambrano Vielma",
+    "dni": "22.345.890",
+    "edad": 75,
+    "genero": "Masculino",
+    "tipo_sangre": "A+",
+    "estado": "En Observación",
+    "diagnostico_principal": "Insuficiencia renal crónica reagudizada",
+    "fecha_ingreso": "2026-09-01T11:00:00",
+    "habitacion": "HAB-310",
+    "medico_tratante": "Dra. Carmen Villalobos",
+    "signos_vitales": {
+      "presion": "150/90 mmHg",
+      "frecuencia_cardiaca": 78,
+      "saturacion_oxigeno": 94,
+      "temperatura": 36.8
+    },
+    "alergias": ["Gentamicina"],
+    "telefono": null,
+    "contacto_emergencia": {
+      "nombre": "Héctor Zambrano Jr. (Hijo)",
+      "telefono": "+58 424 7766554"
+    },
+    "seguro_medico": "Seguros Horizonte",
+    "notas_evolucion": "Ajuste de diuréticos y balance hídrico estricto. Creatinina en descenso relativo. Control ecográfico renal pendiente."
+  },
+  {
+    "id": "MED-2024-013",
+    "nombre_completo": "Diego Armando Bustamante Rangel",
+    "dni": "38.514.209",
+    "edad": 39,
+    "genero": "Masculino",
+    "tipo_sangre": "O+",
+    "estado": "Estable",
+    "diagnostico_principal": "Fractura diafisaria de tibia derecha inmovilizada",
+    "fecha_ingreso": "2026-09-03T18:00:00",
+    "habitacion": "HAB-115",
+    "medico_tratante": "Dr. Javier Carrizo",
+    "signos_vitales": {
+      "presion": "120/75 mmHg",
+      "frecuencia_cardiaca": 70,
+      "saturacion_oxigeno": 98,
+      "temperatura": 36.5
+    },
+    "alergias": [],
+    "telefono": "+58 414 8765432",
+    "contacto_emergencia": {
+      "nombre": "Carolina Bustamante (Hermana)",
+      "telefono": "+58 414 1122334"
+    },
+    "seguro_medico": "Seguros Pirámide",
+    "notas_evolucion": "Tracción cutánea transitoria. Programado para osteosíntesis con clavo endomedular en las próximas 48 horas."
+  },
+  {
+    "id": "MED-2024-014",
+    "nombre_completo": "Valentina Marcela Gómez Padrón",
+    "dni": "44.301.782",
+    "edad": 26,
+    "genero": "Femenino",
+    "tipo_sangre": "A-",
+    "estado": "Crítico",
+    "diagnostico_principal": "Shock anafiláctico secundario a picadura de himenópteros",
+    "fecha_ingreso": "2026-09-04T07:45:00",
+    "habitacion": "UCI-02",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "75/45 mmHg",
+      "frecuencia_cardiaca": 130,
+      "saturacion_oxigeno": 88,
+      "temperatura": 36.9
+    },
+    "alergias": ["Veneno de Abeja / Avispa", "Sulfas"],
+    "telefono": "+58 416 9988776",
+    "contacto_emergencia": {
+      "nombre": "Enrique Gómez (Padre)",
+      "telefono": "+58 414 3344556"
+    },
+    "seguro_medico": "Mapfre Seguros",
+    "notas_evolucion": "Tratamiento intensivo con adrenalina intramuscular, hidrocortisona y fluidoterapia vigorosa. Estridor en disminución."
+  },
+  {
+    "id": "MED-2024-015",
+    "nombre_completo": "Santiago José Rivas Villasmil",
+    "dni": "50.112.445",
+    "edad": 21,
+    "genero": "Masculino",
+    "tipo_sangre": "B+",
+    "estado": "En Observación",
+    "diagnostico_principal": "Mononucleosis infecciosa y esplenomegalia",
+    "fecha_ingreso": "2026-09-03T11:20:00",
+    "habitacion": "OBS-04",
+    "medico_tratante": "Dra. Mariana Lucena",
+    "signos_vitales": {
+      "presion": "115/70 mmHg",
+      "frecuencia_cardiaca": 84,
+      "saturacion_oxigeno": 97,
+      "temperatura": 38.2
+    },
+    "alergias": null,
+    "telefono": "+58 424 3322119",
+    "contacto_emergencia": null,
+    "seguro_medico": null,
+    "notas_evolucion": "Fiebre persistente y adenopatías cervicales dolorosas. Se restringe actividad física estricta por riesgo de rotura esplénica."
+  },
+  {
+    "id": "MED-2024-016",
+    "nombre_completo": "Natalia Coromoto Briceño Alfonzo",
+    "dni": "35.882.901",
+    "edad": 49,
+    "genero": "Femenino",
+    "tipo_sangre": "O-",
+    "estado": "Alta",
+    "diagnostico_principal": "Pielonefritis aguda no complicada (Curada)",
+    "fecha_ingreso": "2026-08-30T15:30:00",
+    "habitacion": "HAB-204",
+    "medico_tratante": "Dra. Carmen Villalobos",
+    "signos_vitales": {
+      "presion": "118/76 mmHg",
+      "frecuencia_cardiaca": 68,
+      "saturacion_oxigeno": 99,
+      "temperatura": 36.4
+    },
+    "alergias": ["Ciprofloxacina"],
+    "telefono": "+58 412 5556677",
+    "contacto_emergencia": {
+      "nombre": "Raúl Briceño (Esposo)",
+      "telefono": "+58 412 5556678"
+    },
+    "seguro_medico": "Seguros Universitas",
+    "notas_evolucion": "Urocultivo de control negativo tras 5 días de ceftriaxona. Hemodinámicamente estable. Alta médica autorizada."
+  },
+  {
+    "id": "MED-2024-017",
+    "nombre_completo": "Fernando Javier Rondón Escalona",
+    "dni": "27.443.882",
+    "edad": 62,
+    "genero": "Masculino",
+    "tipo_sangre": "AB+",
+    "estado": "Crítico",
+    "diagnostico_principal": "Shock cardiogénico por infarto agudo de miocardio transmural",
+    "fecha_ingreso": "2026-09-04T04:15:00",
+    "habitacion": "UCI-01",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "80/55 mmHg",
+      "frecuencia_cardiaca": 110,
+      "saturacion_oxigeno": 86,
+      "temperatura": 36.3
+    },
+    "alergias": null,
+    "telefono": null,
+    "contacto_emergencia": null,
+    "seguro_medico": null,
+    "notas_evolucion": "Ingreso directo a hemodinamia. Angioplastia primaria de arteria coronaria derecha con stent farmacológico. En ventilación mecánica asistida."
+  },
+  {
+    "id": "MED-2024-018",
+    "nombre_completo": "Patricia Elena Quintero Duarte",
+    "dni": "41.667.123",
+    "edad": 38,
+    "genero": "Femenino",
+    "tipo_sangre": "O+",
+    "estado": "Estable",
+    "diagnostico_principal": "Hipertiroidismo descompensado y bocio difuso",
+    "fecha_ingreso": "2026-09-02T13:40:00",
+    "habitacion": "HAB-302",
+    "medico_tratante": "Dra. Mariana Lucena",
+    "signos_vitales": {
+      "presion": "130/80 mmHg",
+      "frecuencia_cardiaca": 88,
+      "saturacion_oxigeno": 98,
+      "temperatura": 37.1
+    },
+    "alergias": [],
+    "telefono": "+58 426 1234567",
+    "contacto_emergencia": {
+      "nombre": "Luis Duarte (Hermano)",
+      "telefono": "+58 426 7654321"
+    },
+    "seguro_medico": "Seguros Mercantil",
+    "notas_evolucion": "Control de taquicardia con betabloqueantes orales. Niveles de TSH y T4 libre en monitoreo endocrinológico."
+  },
+  {
+    "id": "MED-2024-019",
+    "nombre_completo": "Leonardo Andrés Moncada Farías",
+    "dni": "36.901.442",
+    "edad": 45,
+    "genero": "Masculino",
+    "tipo_sangre": null,
+    "estado": "En Observación",
+    "diagnostico_principal": "Fibrilación auricular paroxística de reciente comienzo",
+    "fecha_ingreso": "2026-09-04T01:10:00",
+    "habitacion": "OBS-01",
+    "medico_tratante": "Dr. Javier Carrizo",
+    "signos_vitales": {
+      "presion": "138/88 mmHg",
+      "frecuencia_cardiaca": 102,
+      "saturacion_oxigeno": 96,
+      "temperatura": 36.7
+    },
+    "alergias": null,
+    "telefono": null,
+    "contacto_emergencia": {
+      "nombre": "Elena Farías (Madre)",
+      "telefono": "+58 414 9876543"
+    },
+    "seguro_medico": "Sanitas",
+    "notas_evolucion": "Cardioversión farmacológica con amiodarona en infusión continua. Ritmo sinusal restablecido en las últimas horas."
+  },
+  {
+    "id": "MED-2024-020",
+    "nombre_completo": "Daniel Eduardo Castillo Bermúdez",
+    "dni": "52.774.310",
+    "edad": 24,
+    "genero": "Masculino",
+    "tipo_sangre": "A+",
+    "estado": "Alta",
+    "diagnostico_principal": "Contusión muscular lumbar por accidente laboral",
+    "fecha_ingreso": "2026-09-03T09:00:00",
+    "habitacion": "HAB-102",
+    "medico_tratante": "Dr. Fernando Morales",
+    "signos_vitales": {
+      "presion": "118/72 mmHg",
+      "frecuencia_cardiaca": 65,
+      "saturacion_oxigeno": 99,
+      "temperatura": 36.5
+    },
+    "alergias": ["Tramadol"],
+    "telefono": "+58 412 3344112",
+    "contacto_emergencia": null,
+    "seguro_medico": "Particular (Sin Seguro)",
+    "notas_evolucion": "Dolor controlado con relajantes musculares y reposo. Marcha autónoma sin claudicación. Alta con fisioterapia domiciliaria."
+  }
+]

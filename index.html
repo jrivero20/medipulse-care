@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediPulse Care | Buscador y Gestor de Historiales Clínicos</title>
+  <meta name="description" content="Sistema interactivo de gestión de historiales de pacientes con tolerancia a variables nulas, separación de campos y arquitectura orientada a IA.">
+  
+  <!-- CSS Design System -->
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+</head>
+<body>
+
+  <div class="app-shell">
+
+    <!-- Header Principal -->
+    <header class="app-header" role="banner">
+      <div class="brand-section">
+        <div class="brand-logo" aria-hidden="true">🩺</div>
+        <div class="brand-titles">
+          <h1>MediPulse Care</h1>
+          <p>Buscador Inteligente de Historiales Clínicos & Sistema de Triaje</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <span class="live-badge" title="Flujo de datos activo">
+          <span class="pulse-dot"></span>
+          Sistema En Línea
+        </span>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Cambiar tema visual">
+          <span id="theme-icon" aria-hidden="true">☀️</span>
+          <span id="theme-text">Modo Claro</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Cinta de Métricas en Tiempo Real -->
+    <section class="metrics-ribbon" aria-label="Métricas clínicas generales">
+      
+      <div class="metric-card">
+        <div class="metric-info">
+          <span class="metric-label">Total Pacientes</span>
+          <div class="metric-val" id="metric-total">0</div>
+        </div>
+        <div class="metric-badge-icon icon-total" aria-hidden="true">📋</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-info">
+          <span class="metric-label">Estado Crítico</span>
+          <div class="metric-val" id="metric-critical" style="color: var(--status-critical);">0</div>
+        </div>
+        <div class="metric-badge-icon icon-critical" aria-hidden="true">🚨</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-info">
+          <span class="metric-label">En Observación</span>
+          <div class="metric-val" id="metric-obs" style="color: var(--status-observation);">0</div>
+        </div>
+        <div class="metric-badge-icon icon-obs" aria-hidden="true">⚠️</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-info">
+          <span class="metric-label">Estables</span>
+          <div class="metric-val" id="metric-stable" style="color: var(--status-stable);">0</div>
+        </div>
+        <div class="metric-badge-icon icon-stable" aria-hidden="true">✅</div>
+      </div>
+
+    </section>
+
+    <!-- Barra de Herramientas: Búsqueda y Filtros -->
+    <section class="toolbar-section" aria-label="Controles de búsqueda y filtrado">
+      
+      <div class="search-box-wrapper">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Buscar por nombre, apellido, DNI, diagnóstico o habitación..."
+          aria-label="Buscar pacientes"
+          autocomplete="off"
+        >
+        <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="Limpiar búsqueda">&times;</button>
+      </div>
+
+      <div class="filter-chips-wrapper" role="radiogroup" aria-label="Filtro por estado de salud">
+        <button type="button" class="filter-chip active" data-filter="all" role="radio" aria-checked="true">
+          Todos
+        </button>
+        <button type="button" class="filter-chip" data-filter="Crítico" role="radio" aria-checked="false">
+          🔴 Crítico
+        </button>
+        <button type="button" class="filter-chip" data-filter="En Observación" role="radio" aria-checked="false">
+          🟡 En Observación
+        </button>
+        <button type="button" class="filter-chip" data-filter="Estable" role="radio" aria-checked="false">
+          🟢 Estable
+        </button>
+        <button type="button" class="filter-chip" data-filter="Alta" role="radio" aria-checked="false">
+          ⚪ Alta
+        </button>
+      </div>
+
+    </section>
+
+    <!-- Contador de resultados -->
+    <div class="results-header">
+      <span>Mostrando <strong id="results-count" class="results-count-highlight">0</strong> expedientes clínicos</span>
+      <span>Orquestado vía Agentes IA &bull; Comando: <code>/renderizar_tarjetas</code></span>
+    </div>
+
+    <!-- Cuadrícula Principal de Tarjetas de Pacientes -->
+    <main id="patients-grid" class="patient-grid" aria-live="polite">
+      <!-- Generado dinámicamente por CardRenderer (/renderizar_tarjetas) -->
+    </main>
+
+    <!-- Modal: Expediente Clínico Completo -->
+    <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+      <div id="modal-dialog" class="modal-dialog">
+        <!-- Llenado reactivamente al hacer clic en "Ver Expediente" -->
+      </div>
+    </div>
+
+    <!-- Footer Informativo y Cumplimiento de Normativas -->
+    <footer class="app-footer" role="contentinfo">
+      <div>
+        <strong>MediPulse Care</strong> &copy; 2026 &bull; Proyecto Final Desarrollo con Inteligencia Artificial
+      </div>
+      <div class="footer-compliance-tags">
+        <span class="compliance-tag">🛡️ Cero Código Manual</span>
+        <span class="compliance-tag">📊 Contexto MCP/JSON</span>
+        <span class="compliance-tag">⚡ Skill /renderizar_tarjetas</span>
+        <span class="compliance-tag">🤖 DataAuditorAgent</span>
+        <span class="compliance-tag">🛡️ Null-Safety Resiliente</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts Modulares -->
+  <script src="./js/data-sanitizer.js"></script>
+  <script src="./js/card-renderer.js"></script>
+  <script src="./js/app.js"></script>
+
+</body>
+</html>
